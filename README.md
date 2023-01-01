@@ -1,9 +1,9 @@
-# Moist Scraper
+# Moist Scraper
 A simple scraper for the Moist Meter show run by penguinz0 on YouTube.
 
 It scrapes transcripts of youtube videos then uses the OpenAI api to extract the scores given. Due to the ability of OpenAI models, I'm sure this has the ability to easily generalize to many other use cases.
 
-## Usage
+## Usage
 Goto main.py, add some youtube links to the list, then run the script. It will scrape the transcripts, then use the OpenAI api to extract the scores. It will print the results in the console.
 
 You need to put an OpenAI key in key.txt in the project directory. You can get one from [here](https://beta.openai.com/account/api-keys).
